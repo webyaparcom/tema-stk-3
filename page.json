@@ -1,0 +1,188 @@
+{
+  "data": [
+    {
+      "id": "ov2s7y2nuw",
+      "name": {
+        "tr": "Faaliyetler",
+        "en": "Activities",
+        "ar": "الأنشطة"
+      },
+      "description": {
+        "tr": "Gönüllülerle yürüttüğümüz başlıca çalışmalar.",
+        "en": "The main work we carry out with volunteers.",
+        "ar": "أبرز الأعمال التي ننفذها مع المتطوعين."
+      },
+      "path": "faaliyetler",
+      "icon": "volunteer_activism",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "s9762m",
+          "81llht",
+          "6fh5wd"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "l4haax7u7n",
+      "name": {
+        "tr": "Gönüllü Ol",
+        "en": "Volunteer",
+        "ar": "تطوّع"
+      },
+      "description": {
+        "tr": "İlgi alanınızı ve uygun günü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur. Kişisel veri kaydedilmez.",
+        "en": "Choose an interest and a convenient day; on this demo site your request is created only in your browser. No personal data is stored.",
+        "ar": "اختر اهتمامك واليوم المناسب؛ يُنشأ طلبك في متصفحك فقط. لا تُحفظ بيانات شخصية."
+      },
+      "path": "gonullu-ol",
+      "icon": "volunteer_activism",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "zd1ckp"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "ka8ke31or7",
+      "name": {
+        "tr": "Şeffaflık",
+        "en": "Transparency",
+        "ar": "الشفافية"
+      },
+      "description": {
+        "tr": "Dernek kütük no, faaliyet özeti ve kişisel veri ilkesi.",
+        "en": "Registry number, activity summary and personal-data principle.",
+        "ar": "رقم السجل وملخص الأنشطة ومبدأ البيانات الشخصية."
+      },
+      "path": "seffaflik",
+      "icon": "visibility",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "oje245"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "cle5pzxmj2",
+      "name": {
+        "tr": "Bağış Bilgisi",
+        "en": "Donation Information",
+        "ar": "معلومات التبرع"
+      },
+      "description": {
+        "tr": "Bağışçı hakları ve açık rıza metni; gerçek bağış alınmaz.",
+        "en": "Donor rights and explicit consent text; no real donations are taken.",
+        "ar": "حقوق المتبرعين ونص الموافقة الصريحة؛ ولا تُقبل تبرعات حقيقية."
+      },
+      "path": "bagis-bilgisi",
+      "icon": "favorite",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "oje245"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "abki72elkt",
+      "name": {
+        "tr": "Galeri",
+        "en": "Gallery",
+        "ar": "المعرض"
+      },
+      "description": {
+        "tr": "Fidan, doğa ve etkinlik görüntüleri; kişi/çocuk yoktur.",
+        "en": "Saplings, nature and event images; no people or children.",
+        "ar": "صور الشتلات والطبيعة والفعاليات؛ دون أشخاص أو أطفال."
+      },
+      "path": "galeri",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "0sidac"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About",
+        "ar": "من نحن"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 5,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "hhgv5x",
+          "5fyyyo"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Mavi Nehir Vakfı, şeffaflığı ve kişisel verinin korunmasını çalışma ilkesi sayan kurgusal bir demo kuruluştur. Ad ve kütük no örnektir; üye listesi ve telefonlar yayımlanmaz.",
+        "en": "Mavi Nehir Foundation is a fictional demo organisation that treats transparency and the protection of personal data as working principles. The name and registry number are samples; the member list and phone numbers are not published.",
+        "ar": "مؤسسة النهر الأزرق منظمة تجريبية افتراضية تعدّ الشفافية وحماية البيانات الشخصية مبدأين للعمل. الاسم ورقم السجل مثالان، ولا تُنشر قائمة الأعضاء وأرقام الهواتف."
+      }
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 6,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "4try5m",
+          "avjphq"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, e-posta ve çalışma saatleri.",
+        "en": "Address, phone, e-mail and opening hours.",
+        "ar": "العنوان والهاتف والبريد الإلكتروني وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

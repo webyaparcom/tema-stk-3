@@ -1,0 +1,59 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Mavi Nehir Vakfı: çevre ve fidan dikimi çalışmaları, gönüllülük ve şeffaf bağış bilgisi. (Demo site — gerçek bağış alınmaz)",
+    "en": "Mavi Nehir Foundation: environment and tree-planting work, volunteering and transparent donation information. (Demo site — no real donations)",
+    "ar": "مؤسسة النهر الأزرق: أعمال البيئة وزراعة الأشجار والتطوع ومعلومات تبرع شفافة. (موقع تجريبي — لا تُقبل تبرعات حقيقية)"
+  },
+  "keyword": {
+    "tr": "dernek, bağış, gönüllü, çevre",
+    "en": "association, donation, volunteer, environment",
+    "ar": "جمعية، تبرع، متطوع، بيئة"
+  },
+  "category": "Kurumsal",
+  "name": "Mavi Nehir Vakfı",
+  "domain": "stk-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "lora",
+    "heading": "fraunces",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#1F3A5F",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "1px",
+    "--mx-radius-md": "2px",
+    "--mx-radius-lg": "3px",
+    "--mx-radius-xl": "4px",
+    "--mx-shadow-md": "none",
+    "--mx-dur": "200ms"
+  },
+  "icon": "icon.png",
+  "phone": "+90 342 000 00 00",
+  "email": "iletisim@mavinehir.example",
+  "address": "Cumhuriyet Mah. Dayanışma Sk. No: 6, Şahinbey, Gaziantep (kurgusal adres)"
+}

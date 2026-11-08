@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 5,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "hhgv5x",
+      "5fyyyo"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Mavi Nehir Vakfı, şeffaflığı ve kişisel verinin korunmasını çalışma ilkesi sayan kurgusal bir demo kuruluştur. Ad ve kütük no örnektir; üye listesi ve telefonlar yayımlanmaz.",
+    "en": "Mavi Nehir Foundation is a fictional demo organisation that treats transparency and the protection of personal data as working principles. The name and registry number are samples; the member list and phone numbers are not published.",
+    "ar": "مؤسسة النهر الأزرق منظمة تجريبية افتراضية تعدّ الشفافية وحماية البيانات الشخصية مبدأين للعمل. الاسم ورقم السجل مثالان، ولا تُنشر قائمة الأعضاء وأرقام الهواتف."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-05T19:39:14.567Z",
+  "date": "2026-10-30"
+}
