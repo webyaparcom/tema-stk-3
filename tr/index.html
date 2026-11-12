@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/lora.css?v=nlrbn" />
-  <link rel="stylesheet" href="/src/fonts/fraunces.css?v=nlrbn" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=nlrbn" />
-  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=nlrbn" />
-  <link rel="stylesheet" href="/src/rubik.css?v=nlrbn" />
-  <link rel="stylesheet" href="/src/css.css?v=nlrbn" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=nlrbn" />
+  <link rel="stylesheet" href="/src/fonts/lora.css?v=rngph" />
+  <link rel="stylesheet" href="/src/fonts/fraunces.css?v=rngph" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=rngph" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=rngph" />
+  <link rel="stylesheet" href="/src/rubik.css?v=rngph" />
+  <link rel="stylesheet" href="/src/css.css?v=rngph" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=rngph" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=nlrbn" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=rngph" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=nlrbn" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=rngph" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=nlrbn" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=nlrbn" />
-  <link rel="shortcut icon" href="/img/icon.png?v=nlrbn" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=rngph" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=rngph" />
+  <link rel="shortcut icon" href="/img/icon.png?v=rngph" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -115,7 +115,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=nlrbn">
+<link rel="stylesheet" href="style.css?v=rngph">
 </head>
 
 <body>
@@ -229,6 +229,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="Navigasyon">
         <ul><li><a class="h0001-m9-oge" href="/tr/bagis-bilgisi/">Bağış Bilgisi</a></li><li><a class="h0001-m9-oge" href="/tr/galeri/">Galeri</a></li><li><a class="h0001-m9-oge" href="/tr/hakkimizda/">Hakkımızda</a></li><li><a class="h0001-m9-oge" href="/tr/iletisim/">İletişim</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-6bqcky-panel" aria-label="Menüyü Aç/Kapat">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -280,6 +281,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -392,7 +395,7 @@
   <div class="b0002">
     <div class="b0002-left">
       <img
-        src="/img/hhgv5x/stk-etkinlik.webp?v=etukb"
+        src="/img/hhgv5x/stk-etkinlik.webp?v=p9u4w"
         class="b0002-left-img"
         alt="Hakkımızda"
        loading="lazy"/>
@@ -566,7 +569,7 @@
   <span class="b0004-s2-desen" aria-hidden="true"></span>
   <div class="b0004-s2-wrap">
     <header class="b0004-s2-head"><h2 class="b0004-s2-title">Rakamlarla</h2></header>
-    <ul class="b0004-s2-list"><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">volunteer_activism</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="6" data-s2-ondalik="0">6</span></bdi></div><p class="b0004-s2-etiket">Faaliyet alanı</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">how_to_vote</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="1" data-s2-ondalik="0">1</span></bdi></div><p class="b0004-s2-etiket">Yıllık genel kurul</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">translate</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="3" data-s2-ondalik="0">3</span></bdi></div><p class="b0004-s2-etiket">Site dili</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">visibility</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="1" data-s2-ondalik="0">1</span></bdi></div><p class="b0004-s2-etiket">Şeffaflık sayfası</p></li></ul>
+    <ul class="b0004-s2-list"><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">volunteer_activism</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="6" data-s2-ondalik="0">6</span></bdi></div><p class="b0004-s2-etiket">Faaliyet alanı</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">how_to_vote</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="1" data-s2-ondalik="0">1</span></bdi></div><p class="b0004-s2-etiket">Yıllık genel kurul</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">park</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="4" data-s2-ondalik="0">4</span></bdi></div><p class="b0004-s2-etiket">Yıllık fidan dikim etkinliği (demo değeri)</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">cleaning_services</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="12" data-s2-ondalik="0">12</span></bdi></div><p class="b0004-s2-etiket">Yıllık temizlik günü (demo değeri)</p></li></ul>
   </div>
 </section>
 
@@ -661,6 +664,7 @@
     <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
   </div>
 </footer>
+<nav class="f0000-f9__bar" aria-label="Ana menü"><a class="f0000-f9__bar-oge" href="/tr/" aria-current="page"><span class="material-symbols-outlined" aria-hidden="true">home</span><span class="f0000-f9__bar-ad">Anasayfa</span></a><a class="f0000-f9__bar-oge" href="/tr/faaliyetler/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Faaliyetler</span></a><a class="f0000-f9__bar-oge" href="/tr/gonullu-ol/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Gönüllü Ol</span></a><a class="f0000-f9__bar-oge" href="/tr/seffaflik/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Şeffaflık</span></a><a class="f0000-f9__bar-oge" href="/tr/bagis-bilgisi/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Bağış Bilgisi</span></a></nav>
 
 <div class="f0001-dk" role="contentinfo" aria-label="Demo bilgisi">
   <p class="f0001-dk-text">Bu demo <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> tarafından hazırlanmıştır — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#stk-3" target="_blank" rel="noopener noreferrer"><span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
@@ -671,10 +675,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=nlrbn"></script>
-  <script defer src="/src/mx-store.js?v=nlrbn"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=nlrbn"></script>
-  <script defer src="/src/cookie.js?v=nlrbn"></script>
+  <script defer src="/src/mx-ui.js?v=rngph"></script>
+  <script defer src="/src/mx-store.js?v=rngph"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=rngph"></script>
+  <script defer src="/src/cookie.js?v=rngph"></script>
 
 </body>
 

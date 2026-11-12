@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/lora.css?v=wrvss" />
-  <link rel="stylesheet" href="/src/fonts/fraunces.css?v=wrvss" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=wrvss" />
-  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=wrvss" />
-  <link rel="stylesheet" href="/src/rubik.css?v=wrvss" />
-  <link rel="stylesheet" href="/src/css.css?v=wrvss" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=wrvss" />
+  <link rel="stylesheet" href="/src/fonts/lora.css?v=j46xg" />
+  <link rel="stylesheet" href="/src/fonts/fraunces.css?v=j46xg" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=j46xg" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=j46xg" />
+  <link rel="stylesheet" href="/src/rubik.css?v=j46xg" />
+  <link rel="stylesheet" href="/src/css.css?v=j46xg" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=j46xg" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=wrvss" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=j46xg" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=wrvss" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=j46xg" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=wrvss" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=wrvss" />
-  <link rel="shortcut icon" href="/img/icon.png?v=wrvss" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=j46xg" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=j46xg" />
+  <link rel="shortcut icon" href="/img/icon.png?v=j46xg" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -115,7 +115,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=wrvss">
+<link rel="stylesheet" href="style.css?v=j46xg">
 </head>
 
 <body>
@@ -229,6 +229,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="التنقل">
         <ul><li><a class="h0001-m9-oge" href="/ar/bagis-bilgisi/">معلومات التبرع</a></li><li><a class="h0001-m9-oge" href="/ar/galeri/">المعرض</a></li><li><a class="h0001-m9-oge" href="/ar/hakkimizda/">من نحن</a></li><li><a class="h0001-m9-oge" href="/ar/iletisim/">اتصل بنا</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="محدد اللغة"><ul><li class="wm-lang-item"><a href="/tr/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/" hreflang="ar" lang="ar" aria-current="true">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-6bqcky-panel" aria-label="تبديل القائمة">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -280,6 +281,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -392,7 +395,7 @@
   <div class="b0002">
     <div class="b0002-left">
       <img
-        src="/img/hhgv5x/stk-etkinlik.webp?v=mvwgh"
+        src="/img/hhgv5x/stk-etkinlik.webp?v=doyrs"
         class="b0002-left-img"
         alt="من نحن"
        loading="lazy"/>
@@ -566,7 +569,7 @@
   <span class="b0004-s2-desen" aria-hidden="true"></span>
   <div class="b0004-s2-wrap">
     <header class="b0004-s2-head"><h2 class="b0004-s2-title">بالأرقام</h2></header>
-    <ul class="b0004-s2-list"><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">volunteer_activism</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="6" data-s2-ondalik="0">6</span></bdi></div><p class="b0004-s2-etiket">مجالات النشاط</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">how_to_vote</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="1" data-s2-ondalik="0">1</span></bdi></div><p class="b0004-s2-etiket">جمعية عمومية سنوية</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">translate</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="3" data-s2-ondalik="0">3</span></bdi></div><p class="b0004-s2-etiket">لغات الموقع</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">visibility</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="1" data-s2-ondalik="0">1</span></bdi></div><p class="b0004-s2-etiket">صفحة شفافية</p></li></ul>
+    <ul class="b0004-s2-list"><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">volunteer_activism</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="6" data-s2-ondalik="0">6</span></bdi></div><p class="b0004-s2-etiket">مجالات النشاط</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">how_to_vote</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="1" data-s2-ondalik="0">1</span></bdi></div><p class="b0004-s2-etiket">جمعية عمومية سنوية</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">park</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="4" data-s2-ondalik="0">4</span></bdi></div><p class="b0004-s2-etiket">فعاليات زراعة الأشجار سنويًا (قيمة تجريبية)</p></li><li class="b0004-s2-item"><span class="b0004-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">cleaning_services</span></span><div class="b0004-s2-deger"><bdi dir="ltr"><span class="b0004-s2-sayi" data-s2-hedef="12" data-s2-ondalik="0">12</span></bdi></div><p class="b0004-s2-etiket">أيام التنظيف سنويًا (قيمة تجريبية)</p></li></ul>
   </div>
 </section>
 
@@ -661,6 +664,7 @@
     <nav class="wm-langbar" aria-label="محدد اللغة"><ul><li class="wm-lang-item"><a href="/tr/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/" hreflang="ar" lang="ar" aria-current="true">AR</a></li></ul></nav>
   </div>
 </footer>
+<nav class="f0000-f9__bar" aria-label="Main menu"><a class="f0000-f9__bar-oge" href="/ar/" aria-current="page"><span class="material-symbols-outlined" aria-hidden="true">home</span><span class="f0000-f9__bar-ad">الصفحة الرئيسية</span></a><a class="f0000-f9__bar-oge" href="/ar/faaliyetler/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">الأنشطة</span></a><a class="f0000-f9__bar-oge" href="/ar/gonullu-ol/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">تطوّع</span></a><a class="f0000-f9__bar-oge" href="/ar/seffaflik/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">الشفافية</span></a><a class="f0000-f9__bar-oge" href="/ar/bagis-bilgisi/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">معلومات التبرع</span></a></nav>
 
 <div class="f0001-dk" role="contentinfo" aria-label="معلومات العرض التجريبي">
   <p class="f0001-dk-text">تم إعداد هذا العرض التجريبي بواسطة <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#stk-3" target="_blank" rel="noopener noreferrer"><span>اطلب هذا القالب</span><span class="mx-visually-hidden"> (يفتح في علامة تبويب جديدة)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
@@ -671,10 +675,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=wrvss"></script>
-  <script defer src="/src/mx-store.js?v=wrvss"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=wrvss"></script>
-  <script defer src="/src/cookie.js?v=wrvss"></script>
+  <script defer src="/src/mx-ui.js?v=j46xg"></script>
+  <script defer src="/src/mx-store.js?v=j46xg"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=j46xg"></script>
+  <script defer src="/src/cookie.js?v=j46xg"></script>
 
 </body>
 

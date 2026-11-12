@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/lora.css?v=lsps8" />
-  <link rel="stylesheet" href="/src/fonts/fraunces.css?v=lsps8" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=lsps8" />
-  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=lsps8" />
-  <link rel="stylesheet" href="/src/rubik.css?v=lsps8" />
-  <link rel="stylesheet" href="/src/css.css?v=lsps8" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=lsps8" />
+  <link rel="stylesheet" href="/src/fonts/lora.css?v=n4db6" />
+  <link rel="stylesheet" href="/src/fonts/fraunces.css?v=n4db6" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=n4db6" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=n4db6" />
+  <link rel="stylesheet" href="/src/rubik.css?v=n4db6" />
+  <link rel="stylesheet" href="/src/css.css?v=n4db6" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=n4db6" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=lsps8" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=n4db6" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=lsps8" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=n4db6" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=lsps8" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=lsps8" />
-  <link rel="shortcut icon" href="/img/icon.png?v=lsps8" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=n4db6" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=n4db6" />
+  <link rel="shortcut icon" href="/img/icon.png?v=n4db6" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -110,7 +110,7 @@
         "@type": "ImageObject",
         "url": "https://stk-3.webyapar.com/img/logo.png"
       },
-      "dateModified": "2026-11-05T19:39:14.570Z",
+      "dateModified": "2026-11-12T07:36:57.784Z",
       "breadcrumb": {
         "@id": "https://stk-3.webyapar.com/tr/iletisim/#breadcrumb"
       }
@@ -137,7 +137,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=lsps8">
+<link rel="stylesheet" href="style.css?v=n4db6">
 </head>
 
 <body>
@@ -251,6 +251,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="Navigasyon">
         <ul><li><a class="h0001-m9-oge" href="/tr/bagis-bilgisi/">Bağış Bilgisi</a></li><li><a class="h0001-m9-oge" href="/tr/galeri/">Galeri</a></li><li><a class="h0001-m9-oge" href="/tr/hakkimizda/">Hakkımızda</a></li><li><a class="h0001-m9-oge" href="/tr/iletisim/" aria-current="page">İletişim</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/iletisim/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/iletisim/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/iletisim/" hreflang="ar" lang="ar">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-6bqcky-panel" aria-label="Menüyü Aç/Kapat">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -302,6 +303,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -490,6 +493,7 @@
     <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/iletisim/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/iletisim/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/iletisim/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
   </div>
 </footer>
+<nav class="f0000-f9__bar" aria-label="Ana menü"><a class="f0000-f9__bar-oge" href="/tr/"><span class="material-symbols-outlined" aria-hidden="true">home</span><span class="f0000-f9__bar-ad">Anasayfa</span></a><a class="f0000-f9__bar-oge" href="/tr/faaliyetler/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Faaliyetler</span></a><a class="f0000-f9__bar-oge" href="/tr/gonullu-ol/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Gönüllü Ol</span></a><a class="f0000-f9__bar-oge" href="/tr/seffaflik/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Şeffaflık</span></a><a class="f0000-f9__bar-oge" href="/tr/bagis-bilgisi/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Bağış Bilgisi</span></a></nav>
 
 <div class="f0001-dk" role="contentinfo" aria-label="Demo bilgisi">
   <p class="f0001-dk-text">Bu demo <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> tarafından hazırlanmıştır — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#stk-3" target="_blank" rel="noopener noreferrer"><span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
@@ -500,10 +504,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=lsps8"></script>
-  <script defer src="/src/mx-store.js?v=lsps8"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=lsps8"></script>
-  <script defer src="/src/cookie.js?v=lsps8"></script>
+  <script defer src="/src/mx-ui.js?v=n4db6"></script>
+  <script defer src="/src/mx-store.js?v=n4db6"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=n4db6"></script>
+  <script defer src="/src/cookie.js?v=n4db6"></script>
 
 </body>
 
